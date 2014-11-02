@@ -16,7 +16,7 @@ class Car(object):
     def __init__(self, color='red', tires=None):
         self.color = color
         self.tires = tires
-        if self.tires is None;
+        if self.tires is None:
             self.tires = [Tire() for _ in range(4)]
             
             
